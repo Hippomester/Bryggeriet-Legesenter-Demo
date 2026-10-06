@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aktuelt | Bryggeriet Legesenter</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400..800;1,6..12,400..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="bls-simple.css">
+</head>
+<body class="sub-page">
+	<a class="skip-link" href="#main-content">Hopp til hovedinnhold</a>
+	<header class="site-header">
+        <div class="header-content">
+            <a class="logo" href="index.html" aria-label="Bryggeriet Legesenter, til forsiden"><img src="Logo.svg" alt="Bryggeriet Legesenter"></a>
+            <nav class="primary-navigation" id="primary-navigation" aria-label="Hovedmeny">
+            <a href="index.html">Hjem</a>
+            <a href="ansatte.html">Ansatte</a>
+            <a href="slik-bestiller-du.html">Slik bestiller du</a>
+            <a href="aktuelt.html" aria-current="page">Aktuelt</a>
+            </nav>
+            <button class="hamburger" id="menu-toggle" type="button" aria-label="Åpne meny" aria-controls="primary-navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+	<main class="page-main" id="main-content">
+		<h1>Aktuelt</h1>
+		<section class="news-list" aria-label="Aktuelle saker">
+			<article class="news-item">
+				<h2><time datetime="2025-08-01">Vaksinering høsten 2025</time></h2>
+				<p>Alle over 65 år, samt yngre med kroniske sykdommer (se oversikt på <a href="https://www.fhi.no/" target="_blank" rel="noopener noreferrer">fhi.no</a>) anbefales vaksine mot influensa årlig.</p>
+				<p>Alle over 75 år, og yngre med kroniske sykdommer, anbefales covidvaksine. Personer i alderen 65-74 år, uten kroniske sykdommer, kan få vaksinen dersom de ønsker.</p>
+				<p>Personer født i 1960 får tilbud om vaksine mot lungebetennelse.</p>
+			</article>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+        <div class="footer-content">
+            <section aria-labelledby="footer-address-title">
+                <h2 id="footer-address-title">Adresse</h2>
+                <address>Bryggeriet Legesenter<br><a href="https://www.google.com/maps?q=Elvegata+19,+Lillehammer" target="_blank" rel="noopener noreferrer">Elvegata 19</a>, inngang 9<br>2609 Lillehammer</address>
+                <a class="footer-link" href="https://www.google.com/maps?q=Elvegata+19,+Lillehammer" target="_blank" rel="noopener noreferrer">Vis kart</a>
+            </section>
+            <section aria-labelledby="footer-contact-title">
+                <h2 id="footer-contact-title">Kontakt</h2>
+                <p>Telefon: <a href="tel:+4761221910">+47 61 22 19 10</a></p>
+                <p>E-post: <a href="mailto:post@bryggerietlegesenter.no">post@bryggerietlegesenter.no</a></p>
+                <p class="footer-note">Kun administrative henvendelser, ikke person- eller pasientkontakt.</p>
+            </section>
+        </div>
+    </footer>
+	<script src="bls.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="no" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryggeriet Legesenter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400..800;1,6..12,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bls-simple.css">
+</head>
+
+
+<body class="home-page">
+    <a class="skip-link" href="#main-content">Hopp til hovedinnhold</a>
+    <header class="site-header">
+        <div class="header-content">
+            <a class="logo" href="index.html" aria-label="Bryggeriet Legesenter, til forsiden"><img src="Logo.svg" alt="Bryggeriet Legesenter"></a>
+            <a id="dark-mode-toggle" href="#" aria-label="Bytt til mørk modus"><img src="dark-mode-icon.svg" alt="Bytt til mørk modus"></a>
+            <nav class="primary-navigation" id="primary-navigation" aria-label="Hovedmeny">
+                <a href="index.html" aria-current="page">Hjem</a>
+                <a href="ansatte.html">Ansatte</a>
+                <a href="slik-bestiller-du.html">Slik bestiller du</a>
+                <a href="aktuelt.html">Aktuelt</a>
+            </nav>
+            <button class="hamburger" id="menu-toggle" type="button" aria-label="Åpne meny" aria-controls="primary-navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+
+
+    <main class="page-main home-main" id="main-content">
+
+        <section class="welcome" aria-labelledby="home-title">
+            <div class="home-hero__content">
+                <h1 id="home-title">Velkommen til Bryggeriet Legesenter</h1>
+                <p>På Helsenorge kan du bestille time, fornye resepter og kontakte oss.</p>    
+                <p class="home-phone">Du kan også ringe oss på <a href="tel:+4761221910">+47 61 22 19 10</a></p>    
+            </div>
+        </section>
+
+        <div class="information-grid">
+
+            <section class="main-image">
+                <img src="main-image.png" alt="Hovedbilde av Bryggeriet Legesenter">
+            </section>
+
+            <section class="book-appointment" aria-labelledby="book-title">
+                <h2 id="book-title">Bestill time</h2>
+                <p>Du kan bestille time på Helsenorge.</p>
+                <a class="button button--primary" href="https://www.helsenorge.no" target="_blank" rel="noopener noreferrer">Bestill time på Helsenorge</a>
+            </section>
+
+            <section class="detail-section" aria-labelledby="hours-title">
+                <h2 id="hours-title">Åpningstider</h2>
+                <dl class="opening-hours">
+                    <div><dt>Åpningstid</dt><dd>Mandag - Fredag<br>08.00 - 15.00</dd></div>
+                    <div><dt>Telefontid</dt><dd>Mandag - fredag<br>08.00 - 14.00<br>Stengt 11.15 - 12.00</dd></div>
+                </dl>
+            </section>
+
+            <div class="information-subgrid">
+                <section class="emergency" aria-labelledby="urgent-title">
+                    <h2 id="urgent-title">Legevakt og akutt hjelp</h2>
+                    <p>Når senteret er stengt og hjelp ikke kan vente, ring <a href="tel:116117">116 117</a>.</p>
+                    <p>Hvis situasjonen er livstruende, ring <a href="tel:113">113</a> umiddelbart.</p>
+                </section>
+
+                <section class="staff" aria-labelledby="staff-title">
+                    <h2 id="staff-title">Våre ansatte</h2>
+                    <p>Bryggeriet Legesenter drives av legene Birgitte Gryting, Karoline Olafsen, Håvard Mæland og Steinar Grue.</p>
+                    <a class="text-link" href="ansatte.html">Se ansatte</a>
+                </section>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section aria-labelledby="footer-address-title">
+                <h2 id="footer-address-title">Adresse</h2>
+                <address>Bryggeriet Legesenter<br><a href="https://www.google.com/maps?q=Elvegata+19,+Lillehammer" target="_blank" rel="noopener noreferrer">Elvegata 19</a>, inngang 9<br>2609 Lillehammer</address>
+                <a class="footer-link" href="https://www.google.com/maps?q=Elvegata+19,+Lillehammer" target="_blank" rel="noopener noreferrer">Vis kart</a>
+            </section>
+            <section aria-labelledby="footer-contact-title">
+                <h2 id="footer-contact-title">Kontakt</h2>
+                <p>Telefon: <a href="tel:+4761221910">+47 61 22 19 10</a></p>
+                <p>E-post: <a href="mailto:post@bryggerietlegesenter.no">post@bryggerietlegesenter.no</a></p>
+                <p class="footer-note">Kun administrative henvendelser, ikke person- eller pasientkontakt.</p>
+            </section>
+        </div>
+    </footer>
+    <script src="bls.js"></script>
+</body>
+</html>
